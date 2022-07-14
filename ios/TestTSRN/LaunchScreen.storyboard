@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9Rc-S6-BkR">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="UCd-Wg-31j">
+            <objects>
+                <viewController id="9Rc-S6-BkR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LMA-mu-71K">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreenImages" translatesAutoresizingMaskIntoConstraints="NO" id="ORi-4L-7Q9">
+                                <rect key="frame" x="16" y="0.0" width="343" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="ORi-4L-7Q9" secondAttribute="bottom" id="66a-uh-wAC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ORi-4L-7Q9" secondAttribute="trailing" id="JtG-H6-t7r"/>
+                            <constraint firstItem="ORi-4L-7Q9" firstAttribute="top" secondItem="LMA-mu-71K" secondAttribute="topMargin" id="n7o-AD-XY9"/>
+                            <constraint firstItem="ORi-4L-7Q9" firstAttribute="leading" secondItem="LMA-mu-71K" secondAttribute="leadingMargin" id="yFG-xQ-Rna"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ibW-XW-g6A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-129" y="-31"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchScreenImages" width="1404" height="936"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

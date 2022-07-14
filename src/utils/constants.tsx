@@ -1,0 +1,1 @@
+export const DOMAIN = 'https://gorest.co.in/public/v2';
