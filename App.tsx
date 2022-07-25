@@ -58,3 +58,7 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+
+const styless = StyleSheet.create({
+  
+})
